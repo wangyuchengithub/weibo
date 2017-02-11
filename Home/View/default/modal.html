@@ -1,0 +1,150 @@
+
+<!-- 转发模态框 -->
+<div class="modal fade" id="turnModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">转发推特</h4>
+            </div>
+            <form action="{:U('Home/Index/turnBlog')}" method="post">
+                <div class="modal-body">
+                    <div class="well well-sm">
+                        <span class="turnFrom"></span>                    
+                    </div>
+                    <div class="form-group">
+                        <textarea name="turnContent" id="turnContent" class="form-control"></textarea>
+                        <input type="checkbox" name="turnComment" id="turnComment"><span id="atWho"></span>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" value="" id="tid" name="tid">
+                    <button type="submit" class="btn btn-primary">转推</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</div>
+<!-- 转发模态框 -->
+
+<!-- 评论模态框 -->
+<div class="modal fade" id="commentModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">发表评论</h4>
+            </div>
+            <form action="{:U('Home/Index/comment')}" method="post">
+                <div class="modal-body">
+                    <div class="well well-sm">
+                        <span class="commentWhat"></span>                    
+                    </div>
+                    <div class="form-group">
+                        <textarea name="commentContent" id="commentContent" class="form-control"></textarea>
+                        
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" value="" id="wid" name="wid">
+                    <button type="submit" class="btn btn-primary">评论</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</div>
+<!-- 评论模态框 -->
+
+<!-- 推文详情模态框 -->
+
+<div class="modal fade" id="tweetModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 10px">                
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>  
+            </div>
+                
+            
+        </div>
+    </div>
+</div>
+<!-- 推文详情模态框 -->
+
+<!-- 推文详情模态框(带转发) -->
+
+<div class="modal fade" id="turnTweetModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 10px">         
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+            </div>
+                
+            
+        </div>
+    </div>
+</div>
+<!-- 推文详情模态框(带转发) -->
+
+
+
+<!--登入模态框-->
+<!--         <form role="form" id="loginForm" action="{:U('Index/Login')}" method="post">
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">登入</h4>
+                </div>
+
+
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="account">账号</label>
+                        <input  type="text" name="account" id="account" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密码</label>
+                        <input type="password" name="password" id="password" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="autologin">
+                            <input type="checkbox" id="autologin" name="autoCheck"> 记住账号
+                        </label>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#" >忘记密码？ </a>
+                    <a href="{:U('Register/Index')}" >注册</a>
+                    <button type="submit" class="btn btn-primary">登入</button>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</form> -->
+<!--登入模态框-->

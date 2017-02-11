@@ -1,0 +1,437 @@
+        
+<div class="container maincontent">
+    <div class="row" >
+        <!--左侧导航-->        
+        <div class="col-md-3 col-sm-12 col-xs-12 col-lg-3">
+            <div class="panel panel-default" >
+                <div class="panel-body">
+                    <div align="center">
+                        <img src="
+                            <if condition='$userMainInfo["face180"]'>
+                                __ROOT__/{$userMainInfo.face180}
+                            <else/>
+                                __PUBLIC__/Uploadify/noface.gif
+                            </if>" width="180"  class="img-thumbnail" id="myface" >
+                    </div>
+
+                    <div class="caption role" align="center">
+                        <h3>{$userMainInfo.username}</h3>
+                        <p><a href="{:U('Home/UserSetting/index')}">@{$userAccount}</a></p>
+                        <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6" >
+                            <h5>推文</h5>
+                            <p><span class="label label-default">0</span></p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6" >
+                            <h5>正在关注</h5>
+                            <p><span class="label label-default">0</span></p>
+                        </div>                       
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧内容 -->
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" >
+        <div class="list-group">
+            <div class="list-group-item newTweet">
+                <!--<input type="text" class="form-control" id="fakePost" placeholder="有什么新鲜事？">-->
+                <form action="{:U('Home/Index/sendBlog')}" method="post" id="realPost" >
+                    <textarea name="content" id="" cols="20"  class="form-control" placeholder="有什么新鲜事？"></textarea>
+                    <!-- 微博配图隐藏域 -->
+                    <input type="hidden" name="weiboImgPath" id="weiboImgPath" value=""/>
+                    <!--按钮工具栏组件-->
+                    <div class="btn-toolbar" role="toolbar" >
+                        <div  style="float: left;text-align: center" align="center">
+                            <span class="tweetCounter">140</span>
+                        </div>
+                        <div class="btn-group" style="float:right">
+                            <!--<a class="btn btn-default addSticker">添加表情</a>-->
+                            <!--&lt;!&ndash;添加表情DIV&ndash;&gt;-->
+                            <!--<div id="stickerDiv" width="200" height="100" style="position: absolute;top:35px;left:10px; display:none;z-index: 99999;" >-->
+                                <!--<div class="panel panel-default">-->
+                                    <!--<div class="panel-body">-->
+                                        <!--<table>-->
+                                        <!--<tr>-->
+                                            <!--<td>11</td>                                           -->
+                                            <!--<td>22</td>                                           -->
+                                        <!--</tr>                                              -->
+                                        <!--</table>-->
+
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+
+                            <a class="btn btn-default addPic">添加图片</a>
+                            <!--添加配图DIV-->
+                            <div id="picDiv"  style="width:200px; position: absolute;top:35px;left:10px; display:none;z-index: 99999;" >
+                                <div class="panel panel-default" >
+                                    <div class="panel-body" >
+                                        <div class="" align="center">                                         
+                                            <img src="" width="150" id="weiboPicPreview">
+                                            <div class="caption">
+                                                <input type="file" name="weiboPicUp" id="weiboPicUp" >                                                   
+                                            </div>                                     
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                           <button class="btn btn-success" type="submit" >发推</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+
+
+
+            <volist name="weiboContent" id="vo" >
+            <if condition="$vo['isturn']">
+                <div class="list-group-item tweet" tweetId="{$vo.id}" >
+                    <div class="media" >
+
+                        <div class="media-left" style="width: 85px">
+                            <a  href="javascript:;" >
+                            <img src="
+                            <if condition='$vo["face"]'>
+                                __ROOT__/{$vo.face}
+                            <else/>
+                                __PUBLIC__/Uploadify/noface.gif
+                            </if>
+                            " width="80" height="80" class="img-thumbnail"/>                            
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <a href="__APP__/{$vo.uid}"><span class="username">{$vo['username']}</span></a>&nbsp;&nbsp;
+                            <small>{$vo['time']|timeFormat=###}</small>&nbsp;&nbsp;
+                            <small>
+                                <a href="javascript:" class="detailTweet" style="display: none" wid="{$vo.id}">查看更多</a>
+                            </small>&nbsp;&nbsp;
+                            <p class="content">{$vo['content']|replaceContent=###}</p>
+                        </div>
+                        <div class="panel panel-default" style="margin-top: 2px;">
+                            <div  class="tweet panel-body" tweetId="{$vo.originalTweet.id}">
+                                <a href="__APP__/{$vo.originalTweet.uid}"><span class="oriUsername">{$vo['originalTweet']['username']}</span></a>&nbsp;&nbsp;
+                                <small>{$vo['originalTweet']['time']|timeFormat=###}</small>&nbsp;&nbsp;
+                                <small><a href="javascript:" class="detailTweet" style="display: none" wid="{$vo.originalTweet.id}" >查看更多</a></small>&nbsp;&nbsp;
+                                <p class="oriContent">{$vo['originalTweet']['content']|replaceContent=###}</p>
+                                <if condition='$vo["originalTweet"]["thumbpic"]'>      
+                                    <div>
+                                        <img src='__ROOT__/{$vo["originalTweet"]["thumbpic"]}' alt="微博配图" class="img-thumbnail">
+                                    </div>                         
+                                <else/>
+                                             
+                                </if>
+
+                            </div>
+                                          
+                        </div>                                 
+                    </div>
+                    <div align="right">
+                        <a href="javascript:" class="turnBtn" oriWid="{$vo.originalTweet.id}" title="转发"><span class="glyphicon glyphicon-share-alt">&nbsp;{$vo.turn}</span></a>&nbsp;
+                        <a href="javascript:" class="commentBtn" wid="{$vo.id}" title="评论"><span class="glyphicon glyphicon-pencil">&nbsp;{$vo.comment}</span></a>&nbsp;
+                         <span class="glyphicon glyphicon-heart">&nbsp;0</span>&nbsp;
+                    </div> 
+                </div>
+                <!--<div class="list-group-item loadingGif" align="center" style="display: none;">-->
+                    <!--<img src="__PUBLIC__/image/loading.gif" width="100">-->
+                <!--</div>-->
+                <div class="list-group-item" style="display: none;background-color: #d9d9d9;">
+
+                        <textarea name="commentContent" id="commentContent" class="form-control"></textarea>
+                        <input type="hidden" value="" name="wid">
+                        <button class="btn btn-primary commentSubmit">评论</button>
+
+                    
+                </div>                
+                <div class="list-group-item commentContainer" style="display: none;background-color: #f5f8fa;">
+                    <ul class="list-group">
+
+                    </ul>
+                </div>
+               
+
+
+            <else/>
+
+
+                <div class="list-group-item tweet" tweetId="{$vo.id}">
+                    <div class="media" >
+                        <div class="media-left" style="width: 85px">
+                            <a  href="javascript:;" >
+                            <img src="
+                            <if condition='$vo["face"]'>
+                                __ROOT__/{$vo.face}
+                            <else/>
+                                __PUBLIC__/Uploadify/noface.gif
+                            </if>
+                            " width="80" height="80" class="img-thumbnail"/>                            
+                            </a>
+                        </div>
+                        
+                        <div class="media-body">
+                            <a href="__APP__/{$vo.uid}"><span class="oriUsername">{$vo.username}</span></a>&nbsp;&nbsp;
+                            <small>{$vo.time|timeFormat=###}</small>&nbsp;&nbsp;
+                            <small>
+                                <a href="javascript:" class="detailTweet" style="display: none" wid="{$vo.id}">查看更多</a>
+                            </small>&nbsp;&nbsp;
+
+                            <p class="oriContent">{$vo.content|replaceContent=###}</p>
+                            <if condition='$vo["thumbpic"]'>      
+                                <div>
+                                    <img src="__ROOT__/{$vo.thumbpic}" alt="微博配图" class="img-thumbnail">
+                                </div>                         
+                            <else/>
+                                         
+                            </if>
+                        </div>
+                    </div>
+                    <div align="right">
+                        
+                        <a href="javascript:" class="turnBtn" oriWid="{$vo.id}" firstTurn=on title="转发"><span class="glyphicon glyphicon-share-alt">&nbsp;{$vo.turn}</span></a>&nbsp;
+                        <a href="javascript:" class="commentBtn" wid="{$vo.id}" title="评论"><span class="glyphicon glyphicon-pencil">&nbsp;{$vo.comment}</span></a>&nbsp;
+                        <span class="glyphicon glyphicon-heart">&nbsp;0</span>&nbsp;
+                    </div>                             
+                </div>
+                <!--<div class="list-group-item loadingGif" align="center" style="display: none;">-->
+                    <!--<img src="__PUBLIC__/image/loading.gif" width="100">-->
+                <!--</div>-->
+                <div class="list-group-item" style="display: none;background-color: #d9d9d9;">
+                        <textarea name="commentContent" id="commentContent" class="form-control"></textarea>
+                        <input type="hidden" value="" name="wid">
+                        <button class="btn btn-primary commentSubmit">评论</button>
+                    
+                </div>                
+                <div class="list-group-item commentContainer" style="display: none;background-color: #f5f8fa;">
+                    <ul class="list-group">
+
+                    </ul>
+                </div>
+
+            </if>
+
+            </volist>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- 转发模态框 -->
+<div class="modal fade" id="turnModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">转发推特</h4>
+            </div>
+            <form action="{:U('Home/Index/turnBlog')}" method="post">
+                <div class="modal-body">
+                    <div class="well well-sm">
+                        <span class="oriTweetContent"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="turnContent" id="turnContent" class="form-control"></textarea>
+                        <div class="turnCommentOriCheck">
+                            <input type="checkbox" name="turnCommentOri" class="turnCommentOri">
+                            <span id="atOriWho"></span>
+                        </div>
+                        <div class="turnCommentCheck" style="display: none;">
+                            <input type="checkbox" name="turnComment" class="turnComment">
+                            <span id="atWho"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" value="" id="oriWid" name="oriWid">
+                    <input type="hidden" value="" id="secWid" name="secWid">
+                    <button type="submit" class="btn btn-primary">转推</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</div>
+<!-- 转发模态框 -->
+
+<!-- 评论模态框 -->
+<!-- <div class="modal fade" id="commentModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">发表评论</h4>
+            </div>
+            <form action="{:U('Home/Index/comment')}" method="post">
+                <div class="modal-body">
+                    <div class="well well-sm">
+                        <span class="commentWhat"></span>                    
+                    </div>
+                    <div class="form-group">
+                        <textarea name="commentContent" id="commentContent" class="form-control"></textarea>
+                        
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" value="" id="wid" name="wid">
+                    <button type="submit" class="btn btn-primary">评论</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</div> -->
+<!-- 评论模态框 -->
+
+<!-- 推文详情模态框 -->
+
+<!-- <div class="modal fade" id="tweetModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 10px">                
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button> 
+                <h5>原推  </h5> 
+            </div>
+                <div class="list-group-item">
+                    <div class="media" >
+                        <a class="media-left" href="#">
+                            <img  width="80" height="80" class="detailFace">                        
+                            
+                        </a>
+                        <div class="media-body">
+                            <span class="detailUname"></span>&nbsp;&nbsp;
+                            <small class="detailTime"></small>&nbsp;&nbsp;
+                        
+
+                            <p class="detailContent"></p>                                  
+                            <div>
+                                <img class="detailImg">    
+                            </div>
+                        </div>
+                    </div>
+                    <div align="right" class="detailLink">
+                        
+                        <a href="#" class="turnBtn" tid="{$vo.id}">转发（{$vo.turn}）</a> 
+                        <a href="#" class="commentBtn" wid="{$vo.id}">评论（{$vo.comment}）</a>
+                         点赞（0）
+                    </div>                             
+                </div>                
+            
+        </div>
+    </div>
+</div> -->
+<!-- 推文详情模态框 -->
+
+<!-- 推文详情模态框(带转发) -->
+
+<!-- <div class="modal fade" id="turnTweetModal">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 10px">         
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h5>转发</h5>
+            </div>
+                <div class="list-group-item tweet" tweetId="{$vo.id}" >
+                    <div class="media" >
+                        <a class="media-left" href="#">
+                            <img width="80" height="80" class="detailFace">                        
+                            
+                        </a>
+                        <div class="media-body">
+                            <span class="detailUname"></span>&nbsp;&nbsp;
+                            <small class="detailTime"></small>&nbsp;&nbsp;
+                            
+                            <p class="detailContent"></p>  
+                        </div>
+                        <div class="panel panel-default" style="margin-top: 2px;">
+                            <div  class="tweet panel-body" tweetId="{$vo.originalTweet.id}">
+                                <span class="detailOriUname"></span>&nbsp;&nbsp;
+                                <small class="detailOriTime"></small>&nbsp;&nbsp;
+                                
+                                <p class="detailOriContent"></p>
+                                  
+                                    <div>
+                                        <img class="detailOriImg">    
+                                    </div>                         
+               
+
+                            </div>
+                                          
+                        </div>                                 
+                    </div>
+                    <div align="right" class="detailLink">
+                          
+                        <a href="#" class="turnBtn" tid="{$vo.id}" turnStyle="1">转发（{$vo.turn}）</a> 评论（0） 点赞（0）
+                    </div> 
+                </div>                
+            
+        </div>
+    </div>
+</div> -->
+<!-- 推文详情模态框(带转发) -->
+
+
+
+<!--登入模态框-->
+<!--         <form role="form" id="loginForm" action="{:U('Index/Login')}" method="post">
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title">登入</h4>
+                </div>
+
+
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="account">账号</label>
+                        <input  type="text" name="account" id="account" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">密码</label>
+                        <input type="password" name="password" id="password" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="autologin">
+                            <input type="checkbox" id="autologin" name="autoCheck"> 记住账号
+                        </label>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <a href="#" >忘记密码？ </a>
+                    <a href="{:U('Register/Index')}" >注册</a>
+                    <button type="submit" class="btn btn-primary">登入</button>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</form> -->
+<!--登入模态框-->

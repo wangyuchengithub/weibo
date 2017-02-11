@@ -1,0 +1,50 @@
+textarea
+{
+    resize: none;
+}
+
+
+
+.maincontent
+{
+
+    margin-top: 60px;
+}
+body{
+	/*background-color: #f5f8fa;*/
+	background-color: #339933;
+}
+
+
+.logo
+{
+    position: absolute;
+    width: 100%;
+    left: 48%;
+    /*left: 50%;*/
+    /*text-align: center;*/
+    margin:0 auto;
+}
+.logoPic
+{
+    width: 50px;
+    height: 50px;
+}
+
+
+.newTweet
+{
+    background-color: #E8FAF2;
+}
+a
+{
+    color: #19CF86;
+}
+
+a:hover
+{
+    color: #19CF86;
+}
+
+
+

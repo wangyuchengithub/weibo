@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>weibo</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrapValidator.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/index.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/search.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/usersetting.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Uploadify/uploadify.css" />
+    <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrapValidator.min.js"></script>
+    <script src="__PUBLIC__/Uploadify/jquery.uploadify.min.js"></script>
+    <script type="text/javascript">
+        var isLogin = "{$isLogin}";
+        var myconstellation="{$userinfo.constellation}";
+        var PUBLIC="__PUBLIC__";
+        var ROOT="__ROOT__";
+//        var tempRoot="__APP__";
+        var facePreview='{:U("Home/UserSetting/facePreview")}';
+        var weiboPicPreview='{:U("Home/Index/weiboPicPreview")}';
+        var sid="{:session_id()}";
+        var addGroupUrl="{:U('Home/Search/addGroup')}";
+        var getGroupUrl="{:U('Home/Search/getGroup')}";
+        var followUrl="{:U('Home/Search/follow')}";
+        var removFollowUrl="{:U('Home/Search/removFollow')}";
+        var getCommentUrl="{:U('Home/Index/getComment')}";
+        var sendCommentUrl="{:U('Home/Index/sendComment')}"
+    </script>
+    <script src="__PUBLIC__/js/index.js"></script>
+    <script src="__PUBLIC__/js/usersetting.js"></script>
+    <script src="__PUBLIC__/js/search.js"></script>
+
+
+
+</head>
+
+<body >
+    <!--顶部导航-->
+    <nav class="navbar  navbar-default navbar-fixed-top ">
+        <div class="container">
+            <div class="navbar-header ">
+                <div class="logo">
+                    <img class="logoPic" src="__PUBLIC__/image/logo.png" >
+                    <img class="loadingGif" src="__PUBLIC__/image/loading3.gif" style="display: none    ">
+                </div>
+                <!--<span class="navbar-brand logo" href="__APP__" >LOGO</span>-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navcol">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+
+
+            </div>
+            <div class="collapse navbar-collapse" id="navcol">
+                <ul class="nav navbar-nav navbar-left navcol" >
+                    <li class="active">
+                        <a href="__APP__">主页</a>
+                    </li>
+                    <li>
+                        <a href="#" >通知</a>
+                    </li>
+                    <li>
+                        <a href="#" >私信</a>
+                    </li>
+                </ul>
+                <!--<div class="nav navbar-nav navbar-center" style="margin-top: 0;">-->
+                    <!--<li>-->
+                        <!--<a class="navbar-brand" href="__APP__">Weibo</a>-->
+                    <!--</li>-->
+
+                <!--</div>-->
+
+                <ul class="nav navbar-nav navbar-right  " >
+                    <li>
+                        <form action="{:U('Home/Search/searchUser')}" class="navbar-form" id='searchForm'>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="searching" id="searching" placeholder="找人、搜索微博" />
+                            </div>
+                            <button type="submit" class="btn btn-default" id="searchBtn">搜索</button>
+                        </form>
+                    </li>
+                    <li>
+                    <div class="dropdown">
+                        <img src="
+                        <if condition='$userMainInfo["face50"]'>
+                            __ROOT__/{$userMainInfo.face50}
+                        <else/>
+                            __PUBLIC__/Uploadify/noface.gif
+                         </if>
+                                "
+                                href="#" width="40" height="40" class="dropdown-toggle img-thumbnail" data-toggle="dropdown" style="margin-top: 5px;" >
+                        <ul class="dropdown-menu " role="menu">
+                            <li><a href="{:U('Home/UserSetting/index')}">账号设置</a></li>
+                            <li><a href="#">模板设置</a></li>
+                            <li class="divider"></li>
+                            <li><a href="{:U('Home/Index/logout')}">退出</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <!--<li>-->
+                        <!--<button  class="btn btn-primary">发推</button>-->
+                    <!--</li>-->
+
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+
+{__CONTENT__}
+
+</body>
+
+</html>

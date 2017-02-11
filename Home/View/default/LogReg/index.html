@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>微博-注册</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrapValidator.min.css" />
+    <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/bootstrapValidator.min.js"></script>
+    <script type='text/javascript'>
+        var checkAccount = "{:U('checkAccount')}";
+        var checkUsername = "{:U('checkUsername')}";
+        var checkVerify = "{:U('checkVerify')}";
+    </script>
+    <script src="__PUBLIC__/js/logreg.js"></script>
+
+</head>
+<body style="background: url('http://wx1.sinaimg.cn/large/68f17e01gy1fci21ac0o4j21kw11xtd1.jpg')">
+{__NOLAYOUT__}
+<div class="container" style="margin-top: 70px;">
+    <div class="row">
+        <div class=" hidden-xs  col-sm-6 col-md-8">
+            <a><p><h4>github.com/ealiwood/weibo</h4></p></a>
+            <p><h4>测试账号：admin 密码:admin</h4></p>
+            <p><h4>项目数据表共有10张，已对表结构进行了基础优化</h4></p>            
+            <p><h4>项目用到了基础的curd,多表联查，以及异步获取数据和发送数据</h4></p>             
+            <p><h4>前段采用bootstrap搭建，所有排版和效果均从0开始</h4></p>             
+            <p><h4>目前已完成的功能：<br/>
+                1、登入注册、自动登入（全局session、cookie联用进行判断）<br/>
+                2、首页展示（多表联查）<br/>
+                3、推文发布（带图片）<br/>
+                4、推文评论、转发（评论的获取和发送采用异步操作）<br/>
+                5、用户搜索（查询用户名admin）<br/>
+                6、搜索页对用户进行关注、取关。关注状态的显示（异步操作）<br/>
+                7、个人资料设置、头像更改、密码更改<br/>
+<br/>
+                未完成功能：<br/>
+                1、首页个人发布及关注信息显示<br/>
+                2、首页推荐关注栏目<br/>
+                3、用户详情页展示<br/>
+                4、后台管理板块<br/>
+                5、通知功能<br/>
+                6、私信功能<br/>
+                7、用户自定义模板设置<br/>
+                </h4></p>
+
+        </div>
+
+        
+        <div class="col-md-4 col-sm-6">
+            <!-- 登入 -->
+            <div class="panel panel-default" >
+                <div class="panel-body">
+                    <form action="{:U('Home/LogReg/runLogin')}" method="post" id="loginForm">
+                        <div class="form-group">
+                            <label for="account">账号</label>
+                            <input  type="text" name="account" id="account" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">密码</label>
+                            <input type="password" name="password" id="password" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="autologin">
+                                <input type="checkbox" id="autologin" name="autoCheck"> 记住账号
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">登入</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <!-- 注册 -->
+            <div class="panel panel-default" >
+                <div class="panel-body">
+                    <form role="form" id="regForm" method="post" action="{:U('Home/LogReg/runRegis')}">
+                        <p>注册一个新账户？</p>
+                        <div class="form-group">
+                            <label for="account">账号</label>
+                            <input type="text" class="form-control" id="account" name="account" placeholder="#">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">密码</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="#">
+                        </div>
+                        <div class="form-group">
+                            <label for="passworded">确认密码</label>
+                            <input type="password" class="form-control" id="passworded" name="passworded"placeholder="#">
+                        </div>
+                        <div class="form-group">
+                            <label for="username" >昵称</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="#">
+                        </div>
+                        <label for="verify">验证码</label>        
+                        <div class="form-group"  >
+                                                
+                            <input type="text" class="form-control" id="verify" placeholder="#" name="verify"  />
+                            <img src="{:U('Home/LogReg/verify')}" width='100' height='40' id='verify-img' class="img-thumbnail" />
+                            
+                        </div>
+                        
+
+                        <button type="submit" class="btn btn-default" id="regSubmit">提交</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+</body>
+</html>

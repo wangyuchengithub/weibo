@@ -1,0 +1,1026 @@
+[ 2017-02-07T09:04:01+08:00 ] 127.0.0.1 /weibo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-02-07T09:04:01+08:00 ] 127.0.0.1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.062500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.062500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031250s ]
+
+[ 2017-02-07T09:04:02+08:00 ] 127.0.0.1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-07T17:56:50+08:00 ] ::1 /weibo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009630s ]
+
+[ 2017-02-07T17:56:50+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000665s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007236s ]
+
+[ 2017-02-07T17:56:50+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-02-07T17:57:15+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-02-07T17:57:15+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-02-07T17:58:07+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-02-07T17:58:07+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-02-07T17:59:18+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-02-07T17:59:18+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-02-07T18:00:16+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-02-07T18:00:16+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-02-07T18:02:12+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005053s ]
+
+[ 2017-02-07T18:02:13+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-02-07T18:02:49+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-02-07T18:02:50+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-02-07T18:03:56+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-02-07T18:03:57+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-02-07T18:04:31+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2017-02-07T18:04:31+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-02-07T18:05:09+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-02-07T18:05:09+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-02-07T22:22:02+08:00 ] ::1 /weibo/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010164s ]
+
+[ 2017-02-07T22:22:03+08:00 ] ::1 /weibo/index.php/Home/LogReg/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005794s ]
+
+[ 2017-02-07T22:22:03+08:00 ] ::1 /weibo/index.php/Home/LogReg/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-02-07T22:22:08+08:00 ] ::1 /weibo/index.php/Home/LogReg/runLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `ly_user` WHERE `account` = 'admin' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-02-07T22:22:10+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0192s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0397s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0148s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0154s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0026s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-02-07T22:22:19+08:00 ] ::1 /weibo/index.php/Home/Index/sendBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0099s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0080s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0092s ]
+SQL: INSERT INTO `ly_tweet` (`content`,`time`,`uid`) VALUES ('怎样才能有效地预防癌症呢？答案就在我们日常生活里。美国《读者文摘》总结了10个简单有效的防癌小妙招。1.少喝甜饮料；2.多站少坐；3.蒸食西兰花；4.多吃大蒜；5.每天晒15分钟太阳；6.常喝绿茶；7.调暗卧室光线；8.适量饮酒；9.多吃红葡萄；10.每天步行30分钟。 ​​​​via生命时报 ​​​​','1486477339','1') [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-02-07T22:22:21+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0193s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0069s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0063s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0073s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0011s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-02-07T22:24:54+08:00 ] ::1 /weibo/index.php/Home/Index/sendBlog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0109s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0063s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0077s ]
+SQL: INSERT INTO `ly_tweet` (`content`,`time`,`uid`) VALUES ('怎样才能有效地预防癌症呢？答案就在我们日常生活里。美国《读者文摘》总结了10个简单有效的防癌小妙招。1.少喝甜饮料；2.多站少坐；3.蒸食西兰花；4.多吃大蒜；5.每天晒15分钟太阳；6.常喝绿茶；7.调暗卧室光线；8.适量饮酒；9.多吃红葡萄；10.每天步行30分钟。 ​​​​via生命时报 ​​​​怎样才能有效地预防癌症呢？答案就在我们日常生活里。美国《读者文摘》总结了10个简单有效的防癌小妙招。1.少喝甜饮料；2.多站少坐；3.蒸食西兰花；4.多吃大蒜；5.每天晒15分钟太阳；6.常喝绿茶；7.调暗卧室光线；8.适量饮酒；9.多吃红葡萄；10.每天步行30分钟。 ​​​​via生命时报 ​​​​','1486477494','1') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-02-07T22:24:56+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0115s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0094s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0072s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0079s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0008s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-02-07T22:25:50+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0159s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0065s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0078s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0056s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0006s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-02-07T22:26:34+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0132s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0071s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0072s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0075s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0011s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-02-07T22:27:11+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0143s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0073s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0062s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0064s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-02-07T22:27:50+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0094s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0073s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0061s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0007s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-02-07T22:29:36+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0075s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0066s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0065s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0052s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0006s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-02-07T22:29:49+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0096s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0082s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0066s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0065s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0006s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2017-02-07T22:30:06+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0079s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0068s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0051s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0061s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-02-07T22:30:40+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0099s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0060s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0066s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0049s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0006s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-02-07T22:30:50+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0135s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0123s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0060s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0063s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0007s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-02-07T22:31:56+08:00 ] ::1 /weibo/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `ly_user` [ RunTime:0.0109s ]
+SQL: SELECT `account` FROM `ly_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_userinfo` [ RunTime:0.0068s ]
+SQL: SELECT `username`,`face180`,`face80`,`face50` FROM `ly_userinfo` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ly_follow` [ RunTime:0.0071s ]
+SQL: SELECT `follow` FROM `ly_follow` WHERE `fans` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ly_tweet` [ RunTime:0.0065s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.uid IN ('1','4','3','2') ORDER BY tweet.time DESC  [ RunTime:0.0008s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '72' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '59' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '58' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tweet.id AS id,tweet.content AS content,tweet.isturn AS isturn,tweet.time AS time,tweet.turn AS turn,tweet.collect AS collect,tweet.comment AS comment,tweet.pic AS pic,tweet.thumbpic AS thumbpic,tweet.uid AS uid,userinfo.username AS username,userinfo.sex AS sex,userinfo.face80 AS face FROM ly_tweet tweet LEFT JOIN ly_userinfo userinfo ON tweet.uid=userinfo.uid WHERE tweet.id = '0' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: isLogin C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 19 行.
+NOTIC: [8] Undefined variable: userinfo C:\Software\phpstudy\WWW\weibo\Runtime\Cache\Home\11cb243a745bf4d9fc992e0e2c0ee5cc.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+

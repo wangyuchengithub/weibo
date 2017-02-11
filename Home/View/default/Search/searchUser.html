@@ -1,0 +1,141 @@
+<div class="container maincontent">
+    <div class="page-header">
+        <h2><small>搜索：</small> {$keyword}</h2>
+
+    </div>
+    <ul class="nav nav-pills nav-justified" role="tablist">
+        <li role="presentation" class="active"><a href="#">搜用户</a></li>
+        <li role="presentation" class=""><a href="#">搜推文</a></li>
+        <li role="presentation" class="disabled"><a href="#">Disabled link</a></li>
+    </ul>
+    <div class="row">
+
+        <!--分组-->
+        <div class="hidden-sm hidden-xs col-lg-2 col-md-2" style="margin-top: 10px;">
+            <button class="btn btn-default addGroupBtn"  >添加分组</button>
+            <ul class="list-group">
+                <a class="list-group-item">
+                    同事<span class="badge">14</span>
+                </a>
+                <a class="list-group-item">
+                    同学<span class="badge">14</span>
+                </a>
+                <a class="list-group-item">
+                    亲人<span class="badge">14</span>
+                </a>
+            </ul>
+        </div>
+
+
+        <!--搜索内容-->
+        <div class="col-lg-10 col-md-10 ">
+            <div class="panel panel-default " style="margin-top: 10px; ">
+                <div class="panel-body">
+                    <nav style="margin: 0 auto">
+                        {$show}
+                    </nav>
+                    <div class="row">
+                        <volist name="searchList" id="vo">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="thumbnail">
+                                    <img src="
+                                    <if condition='$vo["face80"]'>
+                                    __ROOT__/{$vo.face80}
+                                    <else/>
+                                    __PUBLIC__/Uploadify/noface.gif
+                                    </if>" width="80" height="80">
+                                    <div class="caption" style="text-align: center; " >
+                                        <h5>{$vo.username}</h5>
+                                        <div style="height: 50px; overflow: hidden;margin: 3px"><p>{$vo.intro}</p></div>
+                                        <p>
+                                            <if condition='$vo["followStats"] eq 2'>
+                                                <button href="#" class="btn btn-default mutualBtn" role="button" uid="{$vo.uid}">互相关注</button>
+                                                <elseif condition='$vo["followStats"] eq 1' />
+                                                <button href="#" class="btn btn-default followedBtn" role="button" uid="{$vo.uid}">已关注</button>
+                                                <else/>
+                                                <button href="#" class="btn btn-primary followBtn" role="button"  uid="{$vo.uid}">加关注</button>                                                
+                                            </if>
+                                            <!-- <a href="#" class="btn btn-primary" role="button">加关注</a> -->
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </volist>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+</div>
+
+<!--关注选择分组模态框-->
+<div class="modal fade" id="selectGroupModal">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">将用户加入分组</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="selectGroup">选择分组</label>
+                    <!--<input  type="text" name="account" id="account" class="form-control"/>-->
+                    <select name="selectGroup" id="selectGroup" class="form-control">
+                        <option value="0" id="defaultGroup">默认分组</option>
+                        <volist name="userGroup" id="vo">
+                            <option value="{$vo.id}">{$vo.name}</option>
+                        </volist>  
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control addGroupName" >
+                        <span class="input-group-btn">
+                            <button class="btn btn-default addGroup" type="button">新增分组</button>
+                        </span>
+                    </div><!-- /input-group -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button  class="btn btn-primary" id="followSubmit">确认</button>
+                <input type="hidden" name="userid" />
+            </div>
+        </div>
+    </div>
+</div>
+<!--关注选择分组模态框-->
+
+
+<div class="modal fade" id="removFollowModal">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">是否不再关注：</h4>
+            </div>
+            <div class="modal-body">
+                
+                
+            </div>
+            <div class="modal-footer">
+                <button  class="btn btn-primary" id="followDelSubmit">确认</button>
+                <input type="hidden" name="userid" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
